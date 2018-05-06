@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>CryptSharpStandard.SCryptSubset</PackageId>
+    <Authors>Dave Erwin (PushOrigin)</Authors>
+    <Description>A .NET Standard implmentation of scrypt password hash algorithm</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>scrypt</PackageTags>
+    <RootNamespace>CryptSharpStandard</RootNamespace>
+    <Company />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\CryptSharpStandard.SCryptSubset.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Internal\ByteArray.cs" />
+    <Compile Remove="Utility\Base2Encoding.cs" />
+    <Compile Remove="Utility\Base32Encoding.cs" />
+    <Compile Remove="Utility\Base64Encoding.cs" />
+    <Compile Remove="Utility\BlowfishCipher.Constants.cs" />
+    <Compile Remove="Utility\BlowfishCipher.cs" />
+    <Compile Remove="Utility\DesCipher.Constants.cs" />
+    <Compile Remove="Utility\DesCipher.cs" />
+    <Compile Remove="Utility\EksBlowfishKeyExpansionFlags.cs" />
+    <Compile Remove="Utility\SecureComparison.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Thread" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
