@@ -1,9 +1,14 @@
 {
-  "name": "CryptSharpCore",
+  "name": "CryptSharpStandard",
   "version": "1.0.0",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-dotnet-cli": "^1.0.2",
     "yargs": "^3.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:PushOrigin/CryptSharpStandard.git"
+  },
+  "license": "ISC"
 }
