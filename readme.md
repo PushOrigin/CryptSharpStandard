@@ -3,12 +3,12 @@ CryptSharpStandard
 
 CryptSharpStandard provides a .NET Standard 2.0 implementation of SCrypt and PBKDF2 for any HMAC (.Net's built-in PBKDF2 implementation only supports SHA-1). 
 
-_This is a conversion of the source code at http://www.zer7.com/software.php?page=cryptsharp_
+_This is a conversion of the source code at https://www.zer7.com/cryptsharp_
 
-_CryptSharpStandard uses the same ISC license that CryptSharp uses._
-http://en.wikipedia.org/wiki/ISC_license
+_CryptSharpStandard uses the same ISC license that CryptSharp uses.
+http://en.wikipedia.org/wiki/ISC_license_
 
-_Taken from the January 23, 2011 - version 1.2.0 (v2 is available in nuget as CryptSharp official) download._
+_Taken from the December 2, 2014 - version 2.1.0 (available in nuget as CryptSharpOfficial) download._
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 

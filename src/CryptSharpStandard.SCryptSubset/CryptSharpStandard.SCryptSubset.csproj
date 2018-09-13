@@ -3,12 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>CryptSharpStandard.SCryptSubset</PackageId>
-    <Authors>Dave Erwin (PushOrigin)</Authors>
-    <Description>A .NET Standard implmentation of scrypt password hash algorithm</Description>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageTags>scrypt</PackageTags>
+    <Authors>PushOrigin</Authors>
+    <Copyright>Copyright 2010-2014 James Bellinger</Copyright>
+    <Description>CryptSharpStandard provides a .NET Standard 2.0 implementation of SCrypt and PBKDF2 for any HMAC (.Net's built-in PBKDF2 implementation only supports SHA-1).</Description>
+    <PackageLicenseUrl>http://www.zer7.com/files/oss/cryptsharp/License.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/PushOrigin/CryptSharpStandard</PackageProjectUrl>
+    <PackageReleaseNotes>1.0.0 Initial release.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>SCrypt PBKDF2 hash crypt CryptSharp</PackageTags>
     <RootNamespace>CryptSharpStandard</RootNamespace>
     <Company />
+    <RepositoryUrl>https://github.com/PushOrigin/CryptSharpStandard</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

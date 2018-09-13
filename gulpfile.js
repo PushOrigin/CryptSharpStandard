@@ -41,5 +41,5 @@ gulp.task('pack', ()=>{
 //push nuget package to local folder
 gulp.task('pushlocal', ()=>{
     return gulp.src('nupkgs/*.nupkg', {read: false})
-        .pipe(push({source: 'c:/localnuget', echo: true}));
+        .pipe(push({source: 'c:/localnugetsource', echo: true}));
 });
